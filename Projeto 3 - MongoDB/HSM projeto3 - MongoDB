@@ -1,0 +1,9 @@
+a) db.Venda.find({"Empresa":"15/Empresa"})
+
+b) db.Venda.deleteMany({"Empregado":"54/José Santos"})
+
+c) db.Venda.deleteMany({"Região"})
+
+d) db.Venda.updateMany({"País":"Brasil"}, {$set: {"CEP":"11111"}})
+
+
